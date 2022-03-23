@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TICKET FORM</title>
+        <style >
+         body{
+                background-image: url('img_irctc (3).jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 90% 100%;
+         }       
+        </style>
+</head>
+<body>
+	<h1 style="color: red;"><marquee><u>E-TICKETING BOOKING SERVICE</u></marquee></h1><br><br>
+        <h1 style="color: mediumvioletred;">TICKET FORM</h1>
+        <form>
+                <label for="name">NAME</label><br>
+        	<input type="text" id="name" name="name" placeholder="Enter Your Name" pattern="[a-zA-Z ]+[a-zA-Z]" required><br><br>
+        	<label for="age">AGE</label><br>
+        	<input type="text" id="age" name="age" maxlength="2" placeholder="Enter Your Age" pattern="[0-9]{2}" required><br><br>
+        	<label>Gender</label><br>
+        	<input type="radio" name="Gender" id="male">
+        	<label for="male">Male</label><br>
+        	<input type="radio" name="Gender" id="female">
+        	<label for="female">Female</label><br><br>
+        	<label for="number">MOBILE NUMBER</label><br>
+        	<input type="text" id="number" name="number" maxlength="10" size="12" placeholder="Enter Your Mob No." pattern="[0-9]{10}" required><br><br>
+                <label for="email">Enter Your Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br><br>
+                <label>Select Class</label><br>
+                <select name="class">
+                	<option value="GENERAL">GENERAL</option>
+                	<option value="AC FIRST CLASS(1A)">AC FIRST CLASS(1A)</option>
+                	<option value="AC 2 TIER(2A)">AC 2 TIER(2A)</option>
+                	<option value="AC 3 TIER(3A)">AC 3 TIER(3A)</option>
+                	<option value="SLEEPER(SL)">SLEEPER(SL)</option>
+                </select><br><br>
+                <label>Select Source Station</label><br>
+                <select name="source">
+                	<option value="DELHI">DELHI</option>
+                	<option value="MUMBAI">MUMBAI</option>
+                	<option value="CHENNAI">CHENNAI</option>
+                	<option value="KOLKATA">KOLKATA</option>
+                	<option value="BANGLORE">BANGLORE</option>
+                	<option value="HYDERABAD">HYDERABAD</option>
+                	<option value="AHEMDABAD">AHEMDABAD</option>
+                	<option value="PUNE">PUNE</option>
+                	<option value="AGRA">AGRA</option>
+                	<option value="AMRAVATI">AMRAVATI</option>
+                	<option value="AMRITSAR">AMRITSAR</option>
+                </select><br><br>
+                <label>Select Destination Station</label><br>
+                <select name="destination">
+                	<option value="DELHI">DELHI</option>
+                	<option value="MUMBAI">MUMBAI</option>
+                	<option value="CHENNAI">CHENNAI</option>
+                	<option value="KOLKATA">KOLKATA</option>
+                	<option value="BANGLORE">BANGLORE</option>
+                	<option value="HYDERABAD">HYDERABAD</option>
+                	<option value="AHEMDABAD">AHEMDABAD</option>
+                	<option value="PUNE">PUNE</option>
+                	<option value="AGRA">AGRA</option>
+                	<option value="AMRAVATI">AMRAVATI</option>
+                	<option value="AMRITSAR">AMRITSAR</option>
+                </select><br><br>
+                <input type="submit" name="submit">
+        </form>
+        <h4 style="text-align: center;"><a href="file:///H:/Web%20Development/HTMLPARTNEW.html">BACK TO HOME PAGE</a></h4>
+</body>
+</html>
